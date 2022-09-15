@@ -1,0 +1,23 @@
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": [
+    "tslint:latest",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-console": [true, "log", "error"],
+    "import-name": false,
+    "interface-name": false,
+    "max-line-length": false,
+    "no-boolean-literal-compare": false,
+    "no-unused-expression": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "object-literal-sort-keys": false,
+    "object-shorthand-properties-first": false,
+    "ordered-imports": false,
+    "ter-arrow-parens": false,
+    "ter-computed-property-spacing": false
+  }
+}
